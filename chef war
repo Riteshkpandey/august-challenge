@@ -1,0 +1,12 @@
+def check(h,p):
+    while p:
+            h=h-p
+            p=p//2
+    if h>p:
+        return 0
+    else:
+        return 1
+for _ in range(int(input())):
+    h,p=map(int,input().split())
+    print(check(h,p))
+    
