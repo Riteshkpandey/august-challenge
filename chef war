@@ -2,6 +2,7 @@ def check(h,p):
     while p:
             h=h-p
             p=p//2
+            
     if h>p:
         return 0
     else:
