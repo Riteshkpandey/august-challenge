@@ -8,5 +8,5 @@ def check(h,p):
         return 1
 for _ in range(int(input())):
     h,p=map(int,input().split())
-    print(check(h,p))
+    print(check(h,p) )
     
