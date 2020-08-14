@@ -1,4 +1,4 @@
-def check(h,p):
+def Check(h,p):
     while p:
             h=h-p
             p=p//2
