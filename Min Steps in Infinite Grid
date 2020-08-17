@@ -1,5 +1,4 @@
-class Solution:
-    
+class Solution:    
     def coverPoints(self, A, B):
         c=0
         if len(A)==1:
